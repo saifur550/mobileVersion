@@ -10,12 +10,15 @@
 </head>
 <body>
    <section class="header__section flex__header">
+    <div id="preloader">
+       
+    </div>
            <div class="half-width">
               <div class="left-content">
                 <h1>welcome to</h1>
                 <h1><span>Saifur Rahman</span> world!</h1>
                 <h3>I build interactive websites that <br> run across platforms & devices</h3>
-                <p>i'm a font-end developer who loves building user-friendly websites and web apps, enjoys writing documentation and loves helping people learn how to code.i also really like drawing with css.i'm currently interested in learning more about accessibility and delving deeper into js/React.</p>
+                <p>I'm a front-end developer who loves building user-friendly websites and web apps enjoy writing documentation and loves helping people learn how to code. I also really like drawing with CSS. I'm currently interested in learning more about accessibility and delving deeper into js/React.</p>
                 <a href="https://www.linkedin.com/in/md-saifur-rahman-ab074512a/" target="_blank"   class="btn-hire">Hire Me</a>
               </div>
            </div>
@@ -67,10 +70,17 @@
        <div class="flex">
         <div class="footer">
             <span>-------</span>
-            <span class="clr-name"> &copy; <Saifur Rahman 2021> </Saifur></span>
+            <span class="clr-name"> &copy; < Saifur Rahman 2021 > </></span>
             <span class="batch">Programming Hero,Batch 4 </span>
         </div>
        </div>
    </footer>
+
+   <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+        loader.style.display ="none"
+        })
+   </script>
 </body>
 </html>
