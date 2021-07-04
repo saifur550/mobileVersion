@@ -144,8 +144,8 @@
         font-weight: var(--fontMedium);
     }
     .left-content p{
-       
-        letter-spacing: 1px;
+        text-align: justify;
+        letter-spacing: 0px;
         margin-bottom: 20px;
         font-weight: var(--fontRegular);
     }
